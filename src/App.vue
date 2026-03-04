@@ -6,7 +6,7 @@ import { useProductStore } from "./stores/ProductStore";
 
 const productStore = useProductStore();
 
-useProductStore();
+productStore.fill();
 </script>
 
 <template>
