@@ -37,7 +37,9 @@ const active = ref(false);
             Clear Cart
           </AppButton>
 
-          <AppButton class="primary">Checkout</AppButton>
+          <AppButton class="primary" @click="cartStore.checkout"
+            >Checkout</AppButton
+          >
         </div>
       </div>
 
